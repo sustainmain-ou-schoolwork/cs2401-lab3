@@ -20,3 +20,14 @@ using static made it so that the value of x was initialized to 0 once, then each
 12
 removing static results in the function making and initializing a new variable each time it is called.
 
+16
+cout << "Integer address: " << ptr << endl;
+Integer address: 0x562e0fdbbe70
+
+17
+cout << "Pointer address: " << &ptr << endl;
+Pointer address: 0x7ffdd3752f30
+
+20
+2402 is stored at 0x564cc351ee70
+2411 is stored at 0x564cc351ee70

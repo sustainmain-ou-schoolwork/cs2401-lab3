@@ -1,8 +1,10 @@
 CC = g++
 CFLAGS = -g -Wall -std=c++11
 
-a.out: part1.cc
-	$(CC) $(CFLAGS) part1.cc -o a.out
+PART_NUM = 2
+
+a.out: part$(PART_NUM).cc
+	$(CC) $(CFLAGS) part$(PART_NUM).cc -o a.out
 
 clean:
 	rm -rf a.out
