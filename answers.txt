@@ -1,0 +1,22 @@
+7
+*
+*
+*
+*
+*
+*
+
+10
+*
+**
+***
+****
+*****
+******
+
+11
+using static made it so that the value of x was initialized to 0 once, then each time the function was called, it reused the same variable
+
+12
+removing static results in the function making and initializing a new variable each time it is called.
+
