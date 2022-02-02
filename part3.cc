@@ -13,7 +13,7 @@ int main() {
 
     for (size_t i = 0; i < 25; ++i) {
         ptr[used] = rand();
-        cout << ptr[used] << endl;
+        //cout << ptr[used] << endl;
         used++;
 
         // resize array if necessary
@@ -30,5 +30,12 @@ int main() {
 
             cout << "Resized" << endl;
         }
+    }
+
+    tmpptr[2] = 0;
+    
+    // print numbers
+    for (size_t i = 0; i < used; ++i) {
+        cout << ptr[i] << endl;
     }
 }
