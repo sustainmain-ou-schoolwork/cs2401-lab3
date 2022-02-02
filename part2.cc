@@ -12,7 +12,7 @@ int main() {
 
     cout << endl;
     for (size_t i = 0; i < 10; i++) {
-        ++(*ptr);
+        ++(ptr);
         cout << *ptr << " is stored at " << ptr << endl;
     }
 }

@@ -31,3 +31,8 @@ Pointer address: 0x7ffdd3752f30
 20
 2402 is stored at 0x564cc351ee70
 2411 is stored at 0x564cc351ee70
+
+22
+859387442 is stored at 0x559171bf0e94
+1936269362 is stored at 0x559171bf0e98
+
