@@ -36,3 +36,6 @@ Pointer address: 0x7ffdd3752f30
 859387442 is stored at 0x559171bf0e94
 1936269362 is stored at 0x559171bf0e98
 
+30
+5 groups 5 random numbers, separated by the resize message
+

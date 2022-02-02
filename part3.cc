@@ -16,9 +16,19 @@ int main() {
         cout << ptr[used] << endl;
         used++;
 
+        // resize array if necessary
         if (used == capacity) {
-            cout << "Sorry, no room left.\n";
-            break;
+            capacity += 5;
+
+            // copy old array
+            tmpptr = new int[capacity];
+            for (size_t i = 0; i < used; i++) {
+                tmpptr[i] = ptr[i]; 
+            }
+            ptr = tmpptr;
+            delete []tmpptr;
+
+            cout << "Resized" << endl;
         }
     }
 }
