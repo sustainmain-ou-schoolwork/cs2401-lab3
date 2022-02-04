@@ -1,10 +1,10 @@
-# settings
+# Settings
 *.json
 .vscode
 
-#cmake files
+# CMake files
 
-#debug information
+# Debug information
 *.dSYM
 
 # Prerequisites
